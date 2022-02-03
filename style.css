@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family:  poppins, sans-serif;
+  background-color: #e7e7e7;
+}
+header{
+  background-color: #203047;
+  height: 70px;
+}
+nav{
+  height: 40px;
+  font-size: 22px;
+}
+h1{
+  margin:0;
+
+
+}
+.nav-principal{
+
+  height:50px;
+  width: 100%;
+  left: 10px;
+  margin: 15px 0;
+
+
+}
+h1{
+  color:#fff;
+}
+h1 span{
+  color:#f5d01f;
+}
+#inspirar{
+margin: 0;
+}
+
+.inspirar-bloco{
+  
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-around;
+  border: 3px solid yellow;
+  padding: 10px 15px;
+ 
+  
+}
+
+.bloco{
+  list-style-type: none;
+  background: #203047;
+  color: #ffff;
+  border-radius: 8px;
+  display: inline-block;
+  height: 100px;
+  width: 40%;
+  text-align:left;
+  padding: 20px 14px;
+  border: 1px solid greenyellow;  
+  padding-top: 5px;
+  padding-bottom: 25px;
+  margin: 0 ;
+}
+.paragrafo-maior{
+   font-size: 17px;
+    border: 1px solid greenyellow;
+}
+.paragrafo-menor{
+  font-size: 14px;
+    border: 1px solid red;
+}
+input{
+width: 80%;
+border-radius: 5px;
+line-height: 5px;
+height:30px;
+border: transparent;
+}
+button{
+  background:  #f5d01f;
+  border-radius: 5px;
+  line-height: 5px;
+  height:35px;
+  width: 10%;
+  border: transparent;
+}
+img{
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+
+}
+.name{
+  font-size: 20px;
+ 
+
+}
+.msg{
+  font-size: 14px;
+  
+
+}
+.github{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
