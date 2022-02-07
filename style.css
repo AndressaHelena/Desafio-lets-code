@@ -14,20 +14,25 @@ body{
 header{
   width: 100%;
   background-color: #203047;
+  
   height: 70px;
   display: flex; 
   flex-direction: row;
   flex: 1;
   color: #ffff;
+  border: 2px solid palevioletred;
   filter: drop-shadow(5px 5px  5px rgb(187, 183, 183));
 }
 header .text {
   display: inline-block;
   margin-right: 50px;
+ 
 }
 
 h1{
   color:#fff;
+  margin-left: 50px;
+  padding: 10px;
 }
 h1 span{
   color:#f5d01f;
@@ -39,29 +44,35 @@ h2{
   font-weight: normal;
 }
 img{
-  margin-top: 10px;
+  margin: 10px 10px 0 0;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  position: relative;
+  
 
 }
 .name{
   font-size: 16px;
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 10px;
+  border: 2px solid greenyellow;
 
 }
 .msg{
   font-size: 10px;  
   display: flex;
   justify-content: flex-end; 
-  
+  border: 2px solid yellow;
+
+
+
 
 }
 .name-msg{
   position: relative;
-  left: 70%;
+  left: 63%;
+  border: 2px solid red;
 }
 
 #inspirar{/*section1*/
@@ -108,7 +119,7 @@ input{
   border-radius: 5px;
   line-height: 5px;
   height:30px;
-  border: transparent;
+  border:none;
   margin-left: 60px;
 }
 
@@ -118,9 +129,10 @@ button{
   line-height: 5px;
   height:30px;
   width: 120px;
-  border: transparent;
+  border:none;
   margin-left: 20px;
   font-size: 15px;
+  cursor: pointer;
 }
 
  
